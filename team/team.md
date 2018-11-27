@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SAFE team
-permalink: https://gadiluna.github.io/team/
+permalink: /team/
 ---
 
 
