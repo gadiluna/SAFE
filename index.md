@@ -36,15 +36,15 @@ If you are interested in this project write us an email.
 
 ------------- 
 SAFE has been designed and developed by:
-<div style="text-align:left"><img src ="\img\2.jpeg" /></div>
+<div style="text-align:left"><img src ="img\2.jpeg" /></div>
 * [Luca Massarelli](https://scholar.google.it/citations?user=mJ_QjZIAAAAJ&hl=it) (development and research)
-<div style="text-align:left"><img src ="\img\1.jpeg" /></div>
+<div style="text-align:left"><img src ="img\1.jpeg" /></div>
 * [Giuseppe Antonio Di Luna](https://scholar.google.it/citations?hl=it&user=RgAfuVgAAAAJ&view_op=list_works&sortby=pubdate) (development and research)
-<div style="text-align:left"><img src ="\img\3.jpeg" /></div>
+<div style="text-align:left"><img src ="img\3.jpeg" /></div>
 * [Fabio Petroni](https://scholar.google.it/citations?user=vxQc2L4AAAAJ&hl=it) (development and research)
-<div style="text-align:left"><img src ="\img\4.jpeg" /></div>
+<div style="text-align:left"><img src ="img\4.jpeg" /></div>
 * [Leonardo Querzoni](https://scholar.google.it/citations?user=-_WFIJIAAAAJ&hl=it) (research)
-<div style="text-align:left"><img src ="\img\5.jpeg" /></div>
+<div style="text-align:left"><img src ="img\5.jpeg" /></div>
 * [Roberto Baldoni](https://scholar.google.it/citations?user=82tR6VoAAAAJ&hl=it) (research)
 
 
