@@ -1,4 +1,4 @@
-#SAFE : Self Attentive Function Embedding
+# SAFE : Self Attentive Function Embedding
   
 What you need  
 -----
@@ -14,7 +14,7 @@ chmod +x download_model.sh
 ./download_model.sh
 python safe.py -m data/safe.pb -i helloworld.o -a 100000F30
 ```
-####What to do with an embedding?
+#### What to do with an embedding?
 Once you have two embeddings ```embedding_x``` and ```embedding_y``` you can compute the similarity of the corresponding functions as: 
 ```
 from sklearn.metrics.pairwise import cosine_similarity
@@ -52,7 +52,7 @@ Hardcore Details
 This section contains details that are needed to replicate our experiments, if you are an user of safe you can skip
 it. 
 
-###Safe.pb
+### Safe.pb
 This is the freezed tensorflow trained model for AMD64 architecture. You can import it in your project using:
 
 ```
@@ -70,7 +70,7 @@ This is the freezed tensorflow trained model for AMD64 architecture. You can imp
 
 see file: neural_network/SAFEEmbedder.py
 
-###i2v
+### i2v
 The i2v folder contains two files. 
 A Matrix where each row is the embedding of an asm instruction.
 A json file that contains a dictonary mapping asm instructions into row numbers of the matrix above.
@@ -78,7 +78,7 @@ see file: asm_embedding/InstructionsConverter.py
 
 
 
-##Train the model
+## Train the model
 If you want to train the model using our datasets you have to first use:
 ```
  python3 downloader.py -tr
@@ -89,11 +89,11 @@ To start the train use neural_network/train.sh.
 The db can be selected by changing the parameter into train.sh.
 If you want information on the dataset see our paper.
 
-##Create your own dataset
+## Create your own dataset
 If you want to create your own dataset you can use the script ExperimentUtil into the folder
 dataset creation.
 
-##Create a functions knowledge base
+## Create a functions knowledge base
 If you want to use SAFE binary code search engine you can use the script ExperimentUtil to create
 the knowledge base.
 Then you can search through it using the script into function_search
