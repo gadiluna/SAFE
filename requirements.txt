@@ -1,0 +1,8 @@
+tensorflow
+sklearn
+numpy
+scipy
+matplotlib
+tqdm
+r2pipe
+pyfiglet
