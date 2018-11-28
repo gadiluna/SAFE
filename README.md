@@ -101,3 +101,10 @@ Then you can search through it using the script into function_search
 Paper
 ---
 See our arXiv paper: [arxiv](https://arxiv.org/abs/1811.05296)
+
+Thanks
+---
+In our code we use [godown](https://github.com/circulosmeos/gdown.pl) to download data from Google drive. We thank 
+circulosmeos, the creator of godown.
+
+We thank Davide Italiano for the useful discussions. 
