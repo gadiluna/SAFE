@@ -2,13 +2,13 @@
   
 What you need  
 -----
-You need radare2 installed in your system. 
+You need [radare2](https://github.com/radare/radare2) installed in your system. 
   
 Quickstart
 -----
 To create the embedding of a function:
 ```
-git clone repo url
+git clone https://github.com/gadiluna/SAFE.git
 pip install -r requirements
 chmod +x download_model.sh
 ./download_model.sh
