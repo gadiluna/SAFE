@@ -81,7 +81,7 @@ see file: asm_embedding/InstructionsConverter.py
 ## Train the model
 If you want to train the model using our datasets you have to first use:
 ```
- python3 downloader.py -tr
+ python3 downloader.py -td
 ```
 This will download the datasets into data folder. Note that the datasets are compressed so you have to decompress them yourself.
 This data will be an sqlite databases.
