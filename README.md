@@ -102,6 +102,21 @@ Paper
 ---
 See our arXiv paper: [arxiv](https://arxiv.org/abs/1811.05296)
 
+If you use this code, please cite:
+
+```latex
+@inproceedings{massarelli2018safe,
+  title={SAFE: Self-Attentive Function Embeddings for Binary Similarity},
+  author={Massarelli, Luca and Di Luna, Giuseppe Antonio and Petroni, Fabio and Querzoni, Leonardo and Baldoni, Roberto},
+  booktitle={To Appear in: Proceedings of 16th Conference on Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA)},
+  year={2019}
+}
+```
+Related Projects
+---
+
+* YARASAFE: Automatic Binary Function Similarity Checks with Yara (https://github.com/lucamassarelli/yarasafe) 
+
 Thanks
 ---
 In our code we use [godown](https://github.com/circulosmeos/gdown.pl) to download data from Google drive. We thank 
