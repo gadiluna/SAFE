@@ -1,3 +1,5 @@
+# SAFE TEAM
+# distributed under license: GPL 3 License http://www.gnu.org/licenses/
 import sqlite3
 import json
 from networkx.readwrite import json_graph

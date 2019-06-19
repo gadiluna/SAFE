@@ -1,9 +1,6 @@
 import tensorflow as tf
 # SAFE TEAM
-#
-#
-# distributed under license: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt)
-#
+# distributed under license: GPL 3 License http://www.gnu.org/licenses/
 
 class SAFEEmbedder:
 

@@ -1,5 +1,5 @@
 # SAFE TEAM
-# distributed under license: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+# distributed under license: GPL 3 License http://www.gnu.org/licenses/
 
 from asm_embedding.FunctionAnalyzerRadare import RadareFunctionAnalyzer
 from argparse import ArgumentParser

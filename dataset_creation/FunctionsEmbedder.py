@@ -1,8 +1,5 @@
 # SAFE TEAM
-#
-#
-# distributed under license: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.txt) #
-#
+# distributed under license: GPL 3 License http://www.gnu.org/licenses/
 from asm_embedding.FunctionNormalizer import FunctionNormalizer
 import json
 from neural_network.SAFEEmbedder import SAFEEmbedder
