@@ -1,5 +1,20 @@
 # SAFE : Self Attentive Function Embedding
-   
+
+Paper
+---
+This software is the outcome of our accademic research. See our arXiv paper: [arxiv](https://arxiv.org/abs/1811.05296)
+
+If you use this code, please cite our accademic paper as:
+
+```latex
+@inproceedings{massarelli2018safe,
+  title={SAFE: Self-Attentive Function Embeddings for Binary Similarity},
+  author={Massarelli, Luca and Di Luna, Giuseppe Antonio and Petroni, Fabio and Querzoni, Leonardo and Baldoni, Roberto},
+  booktitle={To Appear in: Proceedings of 16th Conference on Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA)},
+  year={2019}
+}
+```
+
 What you need  
 -----
 You need [radare2](https://github.com/radare/radare2) installed in your system. 
@@ -98,20 +113,7 @@ If you want to use SAFE binary code search engine you can use the script Experim
 the knowledge base.
 Then you can search through it using the script into function_search
 
-Paper
----
-See our arXiv paper: [arxiv](https://arxiv.org/abs/1811.05296)
 
-If you use this code, please cite:
-
-```latex
-@inproceedings{massarelli2018safe,
-  title={SAFE: Self-Attentive Function Embeddings for Binary Similarity},
-  author={Massarelli, Luca and Di Luna, Giuseppe Antonio and Petroni, Fabio and Querzoni, Leonardo and Baldoni, Roberto},
-  booktitle={To Appear in: Proceedings of 16th Conference on Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA)},
-  year={2019}
-}
-```
 Related Projects
 ---
 
