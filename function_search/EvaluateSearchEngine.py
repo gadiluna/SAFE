@@ -52,7 +52,11 @@ class SearchEngineEvaluator:
             f_name=true_labels[index].split('/')[2]
             fi_name=true_labels[index].split('/')[1]
             q = cur.execute("SELECT num FROM count_func WHERE file_name='{}' and function_name='{}'".format(fi_name,f_name))
-            num=int(q.fetchone()[0])
+            f = q.fetchone()
+            if f is not None:
+                num=int(f[0])
+            else:
+                num = 0
             self.number_similar[true_labels[index]]=num
 
         return n_ids, n_true_labels
@@ -116,7 +120,7 @@ if __name__ == '__main__':
 
     random.seed(12345)
 
-    dbName = '/home/lucamassarelli/binary_similarity_data/databases_new/postgres_ida_2.db'
+    dbName = '../data/AMD64PostgreSQL.db'
     table = ['safe_embeddings']
     opt = ["O0", "O1", "O2", "O3"]
     for x in ['gcc-4.8',"clang-4.0",'gcc-7','clang-6.0']:
