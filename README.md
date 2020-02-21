@@ -6,7 +6,7 @@ This software is the outcome of our accademic research. See our arXiv paper: [ar
 
 If you use this code, please cite our accademic paper as:
 
-```latex
+```bibtex
 @inproceedings{massarelli2018safe,
   title={SAFE: Self-Attentive Function Embeddings for Binary Similarity},
   author={Massarelli, Luca and Di Luna, Giuseppe Antonio and Petroni, Fabio and Querzoni, Leonardo and Baldoni, Roberto},
