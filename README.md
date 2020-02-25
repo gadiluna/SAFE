@@ -118,6 +118,7 @@ Related Projects
 ---
 
 * YARASAFE: Automatic Binary Function Similarity Checks with Yara (https://github.com/lucamassarelli/yarasafe) 
+* SAFEtorch: Pytorch implemenation of the SAFE neural network (https://github.com/facebookresearch/SAFEtorch)
 
 Thanks
 ---
