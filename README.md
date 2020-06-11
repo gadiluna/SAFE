@@ -10,7 +10,7 @@ If you use this code, please cite our accademic paper as:
 @inproceedings{massarelli2018safe,
   title={SAFE: Self-Attentive Function Embeddings for Binary Similarity},
   author={Massarelli, Luca and Di Luna, Giuseppe Antonio and Petroni, Fabio and Querzoni, Leonardo and Baldoni, Roberto},
-  booktitle={To Appear in: Proceedings of 16th Conference on Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA)},
+  booktitle={Proceedings of 16th Conference on Detection of Intrusions and Malware & Vulnerability Assessment (DIMVA)},
   year={2019}
 }
 ```
