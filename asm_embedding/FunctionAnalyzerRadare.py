@@ -109,7 +109,7 @@ class RadareFunctionAnalyzer:
             asm += instruction["bytes"]
             if self.arch == 'x86':
                 filtered_instruction = "X_" + RadareFunctionAnalyzer.filter_memory_references(instruction)
-            elif self.arch == 'ARM':
+            elif self.arch == 'arm':
                 filtered_instruction = "A_" + RadareFunctionAnalyzer.filter_memory_references(instruction)
 
             instructions.append(filtered_instruction)
