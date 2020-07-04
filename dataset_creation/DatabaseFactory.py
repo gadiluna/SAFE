@@ -147,7 +147,7 @@ class DatabaseFactory:
 
         pool_sem = multiprocessing.BoundedSemaphore(value=1)
 
-        instruction_converter = InstructionsConverter()
+        instruction_converter = InstructionsConverter("data/i2v/word2id.json")
         self.create_db()
         file_list = self.scan_for_file(self.root_path)
 
