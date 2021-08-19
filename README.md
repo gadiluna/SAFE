@@ -2,9 +2,9 @@
 
 Paper
 ---
-This software is the outcome of our accademic research. See our arXiv paper: [arxiv](https://arxiv.org/abs/1811.05296)
+This software is the outcome of our academic research. See our arXiv paper: [arxiv](https://arxiv.org/abs/1811.05296)
 
-If you use this code, please cite our accademic paper as:
+If you use this code, please cite our academic paper as:
 
 ```bibtex
 @inproceedings{massarelli2018safe,
