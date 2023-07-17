@@ -1,5 +1,6 @@
 # SAFE TEAM
-# distributed under license: GPL 3 License http://www.gnu.org/licenses/
+# Copyright (C) 2019  Luca Massarelli, Giuseppe Antonio Di Luna, Fabio Petroni, Leonardo Querzoni, Roberto Baldoni
+
 import sqlite3
 import json
 from networkx.readwrite import json_graph
